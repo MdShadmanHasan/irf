@@ -13,7 +13,7 @@ opt.disttoscreen                = 56.5; % distance to screen in cm.
 opt.steptime                    = 0;
 
 folders.data                    = '..\..\etdata\lookAtPoint_EL_irf'; % folder in which data is stored (each folder in folders.data is considered 1 subject)
-folders.output                  = 'output'; % folder for output (will use structure in folders.data for saving output)
+folders.output                  = '..\..\etdata\lookAtPoint_EL_irf'; % folder for output (will use structure in folders.data for saving output)
 
 folders.func                = 'functions'; % folder for functions, will add to matlab path
 addpath(genpath(folders.func));

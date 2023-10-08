@@ -116,7 +116,8 @@ for fpath in tqdm(FILES):
 
     #select required features, transform to matrix and predict
     X = irf_features[ft]
-    X = X.view((np.float32, len(X.dtype.names)))
+    X = np.array(X.tolist())
+    # X = X.view((np.float32, len(X.dtype.names)))
     pred = clf.predict_proba(X)
 
     #probabilistic post-processing
