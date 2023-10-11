@@ -3,10 +3,10 @@
         "source":"etdata"
     },
     "geom": {
-        "screen_width": 533.0,
-        "screen_height": 301.0,
-        "eye_distance": 565.0,
-        "display_width_pix": 1920.0,
-        "display_height_pix": 1080.0
+        "screen_width": 330.0,
+        "screen_height": 280.0,
+        "eye_distance": 700.0,
+        "display_width_pix": 1280.0,
+        "display_height_pix": 960.0
     }
 }
