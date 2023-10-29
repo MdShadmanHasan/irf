@@ -3,7 +3,7 @@ clear variables; clear mex; close all; fclose('all'); clc;
 commandwindow;
 
 opt.xres                        = 1280; % maximum value of horizontal resolution in pixels
-opt.yres                        = 960; % maximum value of vertical resolution in pixels
+opt.yres                        = 1024; % maximum value of vertical resolution in pixels
 opt.missingx                    = -opt.xres; % missing value for horizontal position in eye-tracking data (example data uses -xres). used throughout functions as signal for data loss
 opt.missingy                    = -opt.yres; % missing value for vertical position in eye-tracking data (example data uses -yres). used throughout functions as signal for data loss
 
